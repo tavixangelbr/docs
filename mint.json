@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "almond",
+  "theme": "venus",
   "name": "Docs",
   "description": "Documentation of Directo workspace setup, product how-tos, and support.",
   "colors": {
@@ -9,8 +9,8 @@
     "dark": "#EA4335"
   },
   "favicon": {
-    "light": "https://i.imgur.com/juA9xth.png",
-    "dark": "https://cdn.directo.pro/icon.png"
+    "light": "/favicon.ico",
+    "dark": "/favicon.ico"
   },
   "icons": {
     "library": "lucide"
