@@ -8,10 +8,7 @@
     "light": "#ff8a7f",
     "dark": "#EA4335"
   },
-  "favicon": {
-    "light": "/favicon.ico",
-    "dark": "/favicon.ico"
-  },
+  "favicon": "/favicon.ico",
   "icons": {
     "library": "lucide"
   },
@@ -22,48 +19,50 @@
     "options": ["copy", "view", "assistant", "mcp", "add-mcp"]
   },
   "landing": "/introduction",
-  "navigation": {
-    "directory": "card",
-    "products": [
-      {
-        "product": "Docs",
-        "tabs": [
-          {
-            "tab": "Get Started",
-            "pages": [
-              "Introduction",
-              "account",
-              "Brand",
-              "instagram-connection",
-              "ai-content-creation",
-              "manual-creation-and-uploads",
-              "mastering-the-design-editor",
-              "plans-credits-and-limits",
-              "scheduling-and-auto-publishing",
-              "media-library"
-            ]
-          },
-          {
-            "tab": "Mega FAQ (20+ Frequently Asked Questions)",
-            "pages": [
-              "faq"
-            ]
-          },
-          {
-            "tab": "Support",
-            "pages": [
-              "support-and-community"
-            ]
+  "navigation": [
+    {
+      "directory": "card",
+      "products": [
+        {
+          "product": "Docs",
+          "tabs": [
+            {
+              "tab": "Get Started",
+              "pages": [
+                "Introduction",
+                "account",
+                "Brand",
+                "instagram-connection",
+                "ai-content-creation",
+                "manual-creation-and-uploads",
+                "mastering-the-design-editor",
+                "plans-credits-and-limits",
+                "scheduling-and-auto-publishing",
+                "media-library"
+              ]
+            },
+            {
+              "tab": "Mega FAQ (20+ Frequently Asked Questions)",
+              "pages": [
+                "faq"
+              ]
+            },
+            {
+              "tab": "Support",
+              "pages": [
+                "support-and-community"
+              ]
+            }
+          ],
+          "icon": "arrow-big-right-dash",
+          "color": {
+            "light": "#EA4335",
+            "dark": "#EA4335"
           }
-        ],
-        "icon": "arrow-big-right-dash",
-        "color": {
-          "light": "#EA4335",
-          "dark": "#EA4335"
         }
-      }
-    ]
-  },
+      ]
+    }
+  ],
   "logo": {
     "light": "https://i.imgur.com/mm4pH2J.png",
     "dark": "https://i.imgur.com/mm4pH2J.png",
