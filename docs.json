@@ -1,0 +1,97 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "almond",
+  "name": "Docs",
+  "description": "Documentation of Directo workspace setup, product how-tos, and support.",
+  "colors": {
+    "primary": "#EA4335",
+    "light": "#ff8a7f",
+    "dark": "#EA4335"
+  },
+  "favicon": {
+    "light": "https://i.imgur.com/juA9xth.png",
+    "dark": "https://cdn.directo.pro/icon.png"
+  },
+  "icons": {
+    "library": "lucide"
+  },
+  "styling": {
+    "eyebrows": "breadcrumbs"
+  },
+  "contextual": {
+    "options": ["copy", "view", "assistant", "mcp", "add-mcp"]
+  },
+  "landing": "/introduction",
+  "navigation": {
+    "directory": "card",
+    "products": [
+      {
+        "product": "Docs",
+        "tabs": [
+          {
+            "tab": "Get Started",
+            "pages": [
+              "Introduction",
+              "account",
+              "Brand",
+              "instagram-connection",
+              "ai-content-creation",
+              "manual-creation-and-uploads",
+              "mastering-the-design-editor",
+              "plans-credits-and-limits",
+              "scheduling-and-auto-publishing",
+              "media-library"
+            ]
+          },
+          {
+            "tab": "Mega FAQ (20+ Frequently Asked Questions)",
+            "pages": [
+              "faq"
+            ]
+          },
+          {
+            "tab": "Support",
+            "pages": [
+              "support-and-community"
+            ]
+          }
+        ],
+        "icon": "arrow-big-right-dash",
+        "color": {
+          "light": "#EA4335",
+          "dark": "#EA4335"
+        }
+      }
+    ]
+  },
+  "logo": {
+    "light": "https://i.imgur.com/mm4pH2J.png",
+    "dark": "https://i.imgur.com/mm4pH2J.png",
+    "href": "https://i.imgur.com/mm4pH2J.png"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Get support",
+        "href": "/support/contact-support"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Dashboard",
+      "href": "https://dashboard.mintlify.com"
+    }
+  },
+  "errors": {
+    "404": {
+      "redirect": false
+    }
+  },
+  "fonts": {
+    "family": "Geist"
+  },
+  "appearance": {
+    "default": "light",
+    "strict": true
+  }
+}
