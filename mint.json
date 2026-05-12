@@ -21,45 +21,30 @@
   "landing": "/introduction",
   "navigation": [
     {
-      "directory": "card",
-      "products": [
-        {
-          "product": "Docs",
-          "tabs": [
-            {
-              "tab": "Get Started",
-              "pages": [
-                "Introduction",
-                "account",
-                "Brand",
-                "instagram-connection",
-                "ai-content-creation",
-                "manual-creation-and-uploads",
-                "mastering-the-design-editor",
-                "plans-credits-and-limits",
-                "scheduling-and-auto-publishing",
-                "media-library"
-              ]
-            },
-            {
-              "tab": "Mega FAQ (20+ Frequently Asked Questions)",
-              "pages": [
-                "faq"
-              ]
-            },
-            {
-              "tab": "Support",
-              "pages": [
-                "support-and-community"
-              ]
-            }
-          ],
-          "icon": "arrow-big-right-dash",
-          "color": {
-            "light": "#EA4335",
-            "dark": "#EA4335"
-          }
-        }
+      "group": "Get Started",
+      "pages": [
+        "Introduction",
+        "account",
+        "Brand",
+        "instagram-connection",
+        "ai-content-creation",
+        "manual-creation-and-uploads",
+        "mastering-the-design-editor",
+        "plans-credits-and-limits",
+        "scheduling-and-auto-publishing",
+        "media-library"
+      ]
+    },
+    {
+      "group": "Mega FAQ (20+ Frequently Asked Questions)",
+      "pages": [
+        "faq"
+      ]
+    },
+    {
+      "group": "Support",
+      "pages": [
+        "support-and-community"
       ]
     }
   ],
